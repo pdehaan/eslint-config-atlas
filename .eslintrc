@@ -1,7 +1,7 @@
 {
   extends: [
     'eslint:recommended',
-    './node_modules/eslint-config-bestpratices/.eslintrc'
+    'bestpratices'
   ],
 
   env: {
@@ -23,7 +23,7 @@
     // Strict Mode
     // http://eslint.org/docs/rules/#strict-mode
     'strict': [2, 'global'],
-  
+
     // Variables
     // http://eslint.org/docs/rules/#variables
     'init-declarations': 2, // http://eslint.org/docs/rules/init-declarations

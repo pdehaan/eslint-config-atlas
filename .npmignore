@@ -1,2 +1,9 @@
 .editorconfig
+.eslintrc
+.gitignore
 .travis.yml
+
+build
+default.yaml
+
+!default.json

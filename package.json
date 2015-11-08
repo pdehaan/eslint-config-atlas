@@ -3,19 +3,31 @@
   "version": "1.0.0",
   "description": "sane and safe eslint config to use and/or extend",
   "scripts": {
-    "preversion": "npm run test",
-    "test": "eslint ."
+    "preversion": "npm test",
+    "postversion": "npm run clean",
+    "prepublish": "npm run build",
+    "postpublish": "npm run build",
+    "clean": "rm -f .eslintrc default.json",
+    "build": "./build",
+    "test": "npm run build && eslint . && npm run clean"
   },
   "repository": "github.com:sonnyp/eslint-config-atlas",
   "keywords": [
     "eslint",
-    "config"
+    "config",
+    "rules",
+    "best pratices",
+    "recommended"
   ],
   "author": "Sonny Piers <sonny@fastmail.net>",
   "license": "ISC",
   "bugs": "https://github.com/sonnyp/eslint-config-atlas/issues",
   "homepage": "https://github.com/sonnyp/eslint-config-atlas#readme",
   "dependencies": {
-    "eslint-config-bestpratices": "^1.0.1"
+    "eslint-config-bestpratices": "^1.0.7"
+  },
+  "devDependencies": {
+    "eslint": "1.9.0",
+    "js-yaml": "3.4.3"
   }
 }

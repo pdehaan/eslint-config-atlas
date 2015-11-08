@@ -10,10 +10,10 @@ This [eslint](http://eslint.org/) config provides a sane and safe eslint config 
 ### Usage
 
 ```
-npm install eslint-config-atlas --save
+npm install eslint eslint-config-atlas --save
 ```
 
-and include/extend this configuration, see [Extending Configuration Files](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) eslint documentation.
+and extend this configuration, see [Extending Configuration Files](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) eslint documentation.
 
 ### Examples
 
@@ -22,7 +22,7 @@ JSON .eslintrc
 ```
 {
   extends: [
-    './node_modules/eslint-config-atlas/.eslintrc'
+    'atlas'
   ]
 }
 ```
@@ -31,5 +31,5 @@ YAML .eslintrc
 
 ```
 extends:
-  - './node_modules/eslint-config-atlas/.eslintrc'
+  - 'atlas'
 ```

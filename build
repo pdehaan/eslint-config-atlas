@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var fs = require('fs')
+var path = require('path')
+var yaml = require('js-yaml')
+
+var IN = path.join(__dirname, 'default.yaml')
+var OUT = [
+  '.eslintrc',
+  'default.json'
+]
+
+var data = JSON.stringify(yaml.safeLoad(fs.readFileSync(IN, 'utf8')), null, 2)
+
+OUT.forEach(function(filename) {
+  fs.writeFileSync(path.join(__dirname, filename), data, 'utf8')
+})

@@ -16,6 +16,6 @@
   "bugs": "https://github.com/sonnyp/eslint-config-atlas/issues",
   "homepage": "https://github.com/sonnyp/eslint-config-atlas#readme",
   "dependencies": {
-    "eslint-config-bestpratices": "^1.0.1"
+    "eslint-config-bestpratices": "^1.0.5"
   }
 }

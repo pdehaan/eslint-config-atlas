@@ -6,7 +6,7 @@
     "preversion": "npm test",
     "postversion": "npm run clean",
     "prepublish": "npm run build",
-    "postpublish": "npm run build",
+    "postpublish": "npm run clean",
     "clean": "rm -f .eslintrc default.json",
     "build": "./build",
     "test": "npm run build && eslint . && npm run clean"

@@ -1,11 +1,11 @@
 eslint-config-atlas
 ===================
 
-sane and safe eslint config to use and/or extend
+modern sane and safe eslint config to use and/or extend
 
 [![build status](https://img.shields.io/travis/sonnyp/eslint-config-atlas/master.svg?style=flat-square)](https://travis-ci.org/sonnyp/eslint-config-atlas/branches)
 
-This [eslint](http://eslint.org/) config provides a sane and safe eslint config to use and/or extend.
+This [eslint](http://eslint.org/) config provides a modern sane and safe eslint config to use and/or extend.
 
 ### Usage
 

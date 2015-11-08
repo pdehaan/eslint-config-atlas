@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atlas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "sane and safe eslint config to use and/or extend",
   "scripts": {
     "preversion": "npm test",

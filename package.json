@@ -11,7 +11,7 @@
     "build": "./build",
     "test": "npm run build && eslint . && npm run clean"
   },
-  "repository": "github.com:sonnyp/eslint-config-atlas",
+  "repository": "github:sonnyp/eslint-config-atlas",
   "keywords": [
     "eslint",
     "config",
